@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE00FD3E17CC2E570015ACCE /* b1.png in Resources */ = {isa = PBXBuildFile; fileRef = CE00FD3C17CC2E570015ACCE /* b1.png */; };
+		CE00FD3F17CC2E570015ACCE /* b2.png in Resources */ = {isa = PBXBuildFile; fileRef = CE00FD3D17CC2E570015ACCE /* b2.png */; };
+		CE00FD4217CC2FAE0015ACCE /* OrbitCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE00FD4017CC2FAE0015ACCE /* OrbitCamera.cpp */; };
+		CE00FD4817CC3DE50015ACCE /* CardinalSpline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE00FD4617CC3DE40015ACCE /* CardinalSpline.cpp */; };
+		CE00FD4F17CC47FC0015ACCE /* ActionIntant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE00FD4D17CC47FC0015ACCE /* ActionIntant.cpp */; };
+		CE00FD5117CC4D510015ACCE /* bird2.png in Resources */ = {isa = PBXBuildFile; fileRef = CE00FD5017CC4D510015ACCE /* bird2.png */; };
+		CE00FD5417CC505A0015ACCE /* ActionSpeed.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE00FD5217CC505A0015ACCE /* ActionSpeed.cpp */; };
+		CE00FD5717CC5B4D0015ACCE /* ActionFollow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE00FD5517CC5B4D0015ACCE /* ActionFollow.cpp */; };
+		CE00FD5A17CC7FFD0015ACCE /* ActionManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE00FD5817CC7FFD0015ACCE /* ActionManager.cpp */; };
+		CE00FD5E17CC8A100015ACCE /* ActionEase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE00FD5C17CC8A100015ACCE /* ActionEase.cpp */; };
+		CE00FD6117CC925E0015ACCE /* ActionSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE00FD5F17CC925E0015ACCE /* ActionSequence.cpp */; };
+		CE00FD6417CC9ADB0015ACCE /* ActionDelayTime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE00FD6217CC9ADA0015ACCE /* ActionDelayTime.cpp */; };
+		CE00FD6717CC9CB80015ACCE /* ActionTargeted.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE00FD6517CC9CB70015ACCE /* ActionTargeted.cpp */; };
+		CE00FD6A17CC9D0A0015ACCE /* ActionProgressTo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE00FD6817CC9D080015ACCE /* ActionProgressTo.cpp */; };
+		CE00FD6D17CC9D1C0015ACCE /* ActionGridBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE00FD6B17CC9D1B0015ACCE /* ActionGridBase.cpp */; };
+		CE00FD6F17CCA51A0015ACCE /* water.png in Resources */ = {isa = PBXBuildFile; fileRef = CE00FD6E17CCA51A0015ACCE /* water.png */; };
+		CE00FD7117CCA6AF0015ACCE /* grass.png in Resources */ = {isa = PBXBuildFile; fileRef = CE00FD7017CCA6AF0015ACCE /* grass.png */; };
 		CE20000E17CB3CAF00B0CC7E /* chipmunk.c in Sources */ = {isa = PBXBuildFile; fileRef = CE20000D17CB3CAF00B0CC7E /* chipmunk.c */; };
 		CE20001217CB3CAF00B0CC7E /* cpConstraint.c in Sources */ = {isa = PBXBuildFile; fileRef = CE20001117CB3CAF00B0CC7E /* cpConstraint.c */; };
 		CE20001417CB3CAF00B0CC7E /* cpDampedRotarySpring.c in Sources */ = {isa = PBXBuildFile; fileRef = CE20001317CB3CAF00B0CC7E /* cpDampedRotarySpring.c */; };
@@ -37,7 +54,11 @@
 		CE20004617CB3CB000B0CC7E /* cpSweep1D.c in Sources */ = {isa = PBXBuildFile; fileRef = CE20004517CB3CB000B0CC7E /* cpSweep1D.c */; };
 		CE20004817CB3CB000B0CC7E /* cpVect.c in Sources */ = {isa = PBXBuildFile; fileRef = CE20004717CB3CB000B0CC7E /* cpVect.c */; };
 		CE20004F17CB3CB000B0CC7E /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE20004E17CB3CB000B0CC7E /* AppDelegate.cpp */; };
-		CE20005217CB3CB000B0CC7E /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE20005117CB3CB000B0CC7E /* HelloWorldScene.cpp */; };
+		CE20005917CB3FAA00B0CC7E /* bird.png in Resources */ = {isa = PBXBuildFile; fileRef = CE20005817CB3FAA00B0CC7E /* bird.png */; };
+		CE20005C17CB3FD400B0CC7E /* MainMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE20005A17CB3FD400B0CC7E /* MainMenu.cpp */; };
+		CE20005E17CB447300B0CC7E /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = CE20005D17CB447300B0CC7E /* bg.png */; };
+		CE20006117CB478B00B0CC7E /* ActionInterval.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE20005F17CB478B00B0CC7E /* ActionInterval.cpp */; };
+		CE20006517CB4DD900B0CC7E /* ActionBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE20006317CB4DD900B0CC7E /* ActionBase.cpp */; };
 		CE20FCDB17CB3CA800B0CC7E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE20FCDA17CB3CA800B0CC7E /* QuartzCore.framework */; };
 		CE20FCDD17CB3CA800B0CC7E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE20FCDC17CB3CA800B0CC7E /* OpenGLES.framework */; };
 		CE20FCDF17CB3CA800B0CC7E /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE20FCDE17CB3CA800B0CC7E /* OpenAL.framework */; };
@@ -269,6 +290,35 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE00FD3C17CC2E570015ACCE /* b1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b1.png; sourceTree = "<group>"; };
+		CE00FD3D17CC2E570015ACCE /* b2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b2.png; sourceTree = "<group>"; };
+		CE00FD4017CC2FAE0015ACCE /* OrbitCamera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OrbitCamera.cpp; sourceTree = "<group>"; };
+		CE00FD4117CC2FAE0015ACCE /* OrbitCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrbitCamera.h; sourceTree = "<group>"; };
+		CE00FD4617CC3DE40015ACCE /* CardinalSpline.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CardinalSpline.cpp; sourceTree = "<group>"; };
+		CE00FD4717CC3DE50015ACCE /* CardinalSpline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardinalSpline.h; sourceTree = "<group>"; };
+		CE00FD4D17CC47FC0015ACCE /* ActionIntant.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ActionIntant.cpp; sourceTree = "<group>"; };
+		CE00FD4E17CC47FC0015ACCE /* ActionIntant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionIntant.h; sourceTree = "<group>"; };
+		CE00FD5017CC4D510015ACCE /* bird2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird2.png; sourceTree = "<group>"; };
+		CE00FD5217CC505A0015ACCE /* ActionSpeed.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ActionSpeed.cpp; sourceTree = "<group>"; };
+		CE00FD5317CC505A0015ACCE /* ActionSpeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSpeed.h; sourceTree = "<group>"; };
+		CE00FD5517CC5B4D0015ACCE /* ActionFollow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ActionFollow.cpp; sourceTree = "<group>"; };
+		CE00FD5617CC5B4D0015ACCE /* ActionFollow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionFollow.h; sourceTree = "<group>"; };
+		CE00FD5817CC7FFD0015ACCE /* ActionManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ActionManager.cpp; sourceTree = "<group>"; };
+		CE00FD5917CC7FFD0015ACCE /* ActionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionManager.h; sourceTree = "<group>"; };
+		CE00FD5C17CC8A100015ACCE /* ActionEase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ActionEase.cpp; sourceTree = "<group>"; };
+		CE00FD5D17CC8A100015ACCE /* ActionEase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionEase.h; sourceTree = "<group>"; };
+		CE00FD5F17CC925E0015ACCE /* ActionSequence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ActionSequence.cpp; sourceTree = "<group>"; };
+		CE00FD6017CC925E0015ACCE /* ActionSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSequence.h; sourceTree = "<group>"; };
+		CE00FD6217CC9ADA0015ACCE /* ActionDelayTime.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ActionDelayTime.cpp; sourceTree = "<group>"; };
+		CE00FD6317CC9ADA0015ACCE /* ActionDelayTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionDelayTime.h; sourceTree = "<group>"; };
+		CE00FD6517CC9CB70015ACCE /* ActionTargeted.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ActionTargeted.cpp; sourceTree = "<group>"; };
+		CE00FD6617CC9CB70015ACCE /* ActionTargeted.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionTargeted.h; sourceTree = "<group>"; };
+		CE00FD6817CC9D080015ACCE /* ActionProgressTo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ActionProgressTo.cpp; sourceTree = "<group>"; };
+		CE00FD6917CC9D090015ACCE /* ActionProgressTo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionProgressTo.h; sourceTree = "<group>"; };
+		CE00FD6B17CC9D1B0015ACCE /* ActionGridBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ActionGridBase.cpp; sourceTree = "<group>"; };
+		CE00FD6C17CC9D1C0015ACCE /* ActionGridBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionGridBase.h; sourceTree = "<group>"; };
+		CE00FD6E17CCA51A0015ACCE /* water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = water.png; sourceTree = "<group>"; };
+		CE00FD7017CCA6AF0015ACCE /* grass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grass.png; sourceTree = "<group>"; };
 		CE20000017CB3CAF00B0CC7E /* cpSlideJoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = cpSlideJoint.h; path = libs/chipmunk/include/chipmunk/constraints/cpSlideJoint.h; sourceTree = "<group>"; };
 		CE20000117CB3CAF00B0CC7E /* util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = util.h; path = libs/chipmunk/include/chipmunk/constraints/util.h; sourceTree = "<group>"; };
 		CE20000217CB3CAF00B0CC7E /* cpArbiter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = cpArbiter.h; path = libs/chipmunk/include/chipmunk/cpArbiter.h; sourceTree = "<group>"; };
@@ -315,8 +365,14 @@
 		CE20004B17CB3CB000B0CC7E /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		CE20004D17CB3CB000B0CC7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		CE20004E17CB3CB000B0CC7E /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
-		CE20005017CB3CB000B0CC7E /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
-		CE20005117CB3CB000B0CC7E /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
+		CE20005817CB3FAA00B0CC7E /* bird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird.png; sourceTree = "<group>"; };
+		CE20005A17CB3FD400B0CC7E /* MainMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainMenu.cpp; sourceTree = "<group>"; };
+		CE20005B17CB3FD400B0CC7E /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
+		CE20005D17CB447300B0CC7E /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		CE20005F17CB478B00B0CC7E /* ActionInterval.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ActionInterval.cpp; sourceTree = "<group>"; };
+		CE20006017CB478B00B0CC7E /* ActionInterval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionInterval.h; sourceTree = "<group>"; };
+		CE20006317CB4DD900B0CC7E /* ActionBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ActionBase.cpp; sourceTree = "<group>"; };
+		CE20006417CB4DD900B0CC7E /* ActionBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionBase.h; sourceTree = "<group>"; };
 		CE20FCD717CB3CA800B0CC7E /* ActionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE20FCDA17CB3CA800B0CC7E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		CE20FCDC17CB3CA800B0CC7E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -855,6 +911,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE00FD4917CC47820015ACCE /* intant */ = {
+			isa = PBXGroup;
+			children = (
+				CE00FD4E17CC47FC0015ACCE /* ActionIntant.h */,
+				CE00FD4D17CC47FC0015ACCE /* ActionIntant.cpp */,
+			);
+			name = intant;
+			sourceTree = "<group>";
+		};
+		CE00FD4A17CC478C0015ACCE /* speed */ = {
+			isa = PBXGroup;
+			children = (
+				CE00FD5317CC505A0015ACCE /* ActionSpeed.h */,
+				CE00FD5217CC505A0015ACCE /* ActionSpeed.cpp */,
+			);
+			name = speed;
+			sourceTree = "<group>";
+		};
+		CE00FD4B17CC47920015ACCE /* follow */ = {
+			isa = PBXGroup;
+			children = (
+				CE00FD5617CC5B4D0015ACCE /* ActionFollow.h */,
+				CE00FD5517CC5B4D0015ACCE /* ActionFollow.cpp */,
+			);
+			name = follow;
+			sourceTree = "<group>";
+		};
+		CE00FD4C17CC47980015ACCE /* manager */ = {
+			isa = PBXGroup;
+			children = (
+				CE00FD5917CC7FFD0015ACCE /* ActionManager.h */,
+				CE00FD5817CC7FFD0015ACCE /* ActionManager.cpp */,
+			);
+			name = manager;
+			sourceTree = "<group>";
+		};
 		CE20000C17CB3CAF00B0CC7E /* src */ = {
 			isa = PBXGroup;
 			children = (
@@ -914,10 +1006,42 @@
 			children = (
 				CE20004D17CB3CB000B0CC7E /* AppDelegate.h */,
 				CE20004E17CB3CB000B0CC7E /* AppDelegate.cpp */,
-				CE20005017CB3CB000B0CC7E /* HelloWorldScene.h */,
-				CE20005117CB3CB000B0CC7E /* HelloWorldScene.cpp */,
+				CE20005B17CB3FD400B0CC7E /* MainMenu.h */,
+				CE20005A17CB3FD400B0CC7E /* MainMenu.cpp */,
+				CE20006217CB4DA000B0CC7E /* ActionInterval */,
+				CE00FD4917CC47820015ACCE /* intant */,
+				CE00FD4A17CC478C0015ACCE /* speed */,
+				CE00FD4B17CC47920015ACCE /* follow */,
+				CE00FD4C17CC47980015ACCE /* manager */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		CE20006217CB4DA000B0CC7E /* ActionInterval */ = {
+			isa = PBXGroup;
+			children = (
+				CE20006017CB478B00B0CC7E /* ActionInterval.h */,
+				CE20005F17CB478B00B0CC7E /* ActionInterval.cpp */,
+				CE20006417CB4DD900B0CC7E /* ActionBase.h */,
+				CE20006317CB4DD900B0CC7E /* ActionBase.cpp */,
+				CE00FD4117CC2FAE0015ACCE /* OrbitCamera.h */,
+				CE00FD4017CC2FAE0015ACCE /* OrbitCamera.cpp */,
+				CE00FD4717CC3DE50015ACCE /* CardinalSpline.h */,
+				CE00FD4617CC3DE40015ACCE /* CardinalSpline.cpp */,
+				CE00FD5D17CC8A100015ACCE /* ActionEase.h */,
+				CE00FD5C17CC8A100015ACCE /* ActionEase.cpp */,
+				CE00FD6017CC925E0015ACCE /* ActionSequence.h */,
+				CE00FD5F17CC925E0015ACCE /* ActionSequence.cpp */,
+				CE00FD6317CC9ADA0015ACCE /* ActionDelayTime.h */,
+				CE00FD6217CC9ADA0015ACCE /* ActionDelayTime.cpp */,
+				CE00FD6617CC9CB70015ACCE /* ActionTargeted.h */,
+				CE00FD6517CC9CB70015ACCE /* ActionTargeted.cpp */,
+				CE00FD6917CC9D090015ACCE /* ActionProgressTo.h */,
+				CE00FD6817CC9D080015ACCE /* ActionProgressTo.cpp */,
+				CE00FD6C17CC9D1C0015ACCE /* ActionGridBase.h */,
+				CE00FD6B17CC9D1B0015ACCE /* ActionGridBase.cpp */,
+			);
+			name = ActionInterval;
 			sourceTree = "<group>";
 		};
 		CE20FCCE17CB3CA700B0CC7E = {
@@ -967,6 +1091,13 @@
 		CE20FCEB17CB3CA800B0CC7E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CE00FD7017CCA6AF0015ACCE /* grass.png */,
+				CE00FD6E17CCA51A0015ACCE /* water.png */,
+				CE00FD5017CC4D510015ACCE /* bird2.png */,
+				CE00FD3C17CC2E570015ACCE /* b1.png */,
+				CE00FD3D17CC2E570015ACCE /* b2.png */,
+				CE20005D17CB447300B0CC7E /* bg.png */,
+				CE20005817CB3FAA00B0CC7E /* bird.png */,
 				CE20FCEC17CB3CA800B0CC7E /* CloseNormal.png */,
 				CE20FCEE17CB3CA800B0CC7E /* CloseSelected.png */,
 				CE20FCF017CB3CA800B0CC7E /* Default.png */,
@@ -2047,6 +2178,13 @@
 				CE20FD0117CB3CA800B0CC7E /* iTunesArtwork in Resources */,
 				CE20FD9D17CB3CA900B0CC7E /* ChangeLog in Resources */,
 				CE20FF0717CB3CAD00B0CC7E /* project.pbxproj in Resources */,
+				CE20005917CB3FAA00B0CC7E /* bird.png in Resources */,
+				CE20005E17CB447300B0CC7E /* bg.png in Resources */,
+				CE00FD3E17CC2E570015ACCE /* b1.png in Resources */,
+				CE00FD3F17CC2E570015ACCE /* b2.png in Resources */,
+				CE00FD5117CC4D510015ACCE /* bird2.png in Resources */,
+				CE00FD6F17CCA51A0015ACCE /* water.png in Resources */,
+				CE00FD7117CCA6AF0015ACCE /* grass.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2292,7 +2430,21 @@
 				CE20004617CB3CB000B0CC7E /* cpSweep1D.c in Sources */,
 				CE20004817CB3CB000B0CC7E /* cpVect.c in Sources */,
 				CE20004F17CB3CB000B0CC7E /* AppDelegate.cpp in Sources */,
-				CE20005217CB3CB000B0CC7E /* HelloWorldScene.cpp in Sources */,
+				CE20005C17CB3FD400B0CC7E /* MainMenu.cpp in Sources */,
+				CE20006117CB478B00B0CC7E /* ActionInterval.cpp in Sources */,
+				CE20006517CB4DD900B0CC7E /* ActionBase.cpp in Sources */,
+				CE00FD4217CC2FAE0015ACCE /* OrbitCamera.cpp in Sources */,
+				CE00FD4817CC3DE50015ACCE /* CardinalSpline.cpp in Sources */,
+				CE00FD4F17CC47FC0015ACCE /* ActionIntant.cpp in Sources */,
+				CE00FD5417CC505A0015ACCE /* ActionSpeed.cpp in Sources */,
+				CE00FD5717CC5B4D0015ACCE /* ActionFollow.cpp in Sources */,
+				CE00FD5A17CC7FFD0015ACCE /* ActionManager.cpp in Sources */,
+				CE00FD5E17CC8A100015ACCE /* ActionEase.cpp in Sources */,
+				CE00FD6117CC925E0015ACCE /* ActionSequence.cpp in Sources */,
+				CE00FD6417CC9ADB0015ACCE /* ActionDelayTime.cpp in Sources */,
+				CE00FD6717CC9CB80015ACCE /* ActionTargeted.cpp in Sources */,
+				CE00FD6A17CC9D0A0015ACCE /* ActionProgressTo.cpp in Sources */,
+				CE00FD6D17CC9D1C0015ACCE /* ActionGridBase.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2421,6 +2573,7 @@
 				CE20005717CB3CB000B0CC7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE20FCD217CB3CA700B0CC7E /* Build configuration list for PBXProject "ActionDemo" */ = {
 			isa = XCConfigurationList;
